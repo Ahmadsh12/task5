@@ -2,7 +2,7 @@ const calculateDiscount = require('./index.js');
 
 console.log("Running backend tests...");
 
-const result = calculateDiscount(500, 0.2);
+const result = calculateDiscount(100, 0.2);
 
 if (result === 80) {
     console.log("✅ Test Passed: Discount calculated correctly.");
