@@ -68,7 +68,7 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
           SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
         with:
-          args: >
+          args: |
             -Dsonar.projectKey=monorepo-backend
             -Dsonar.projectName=Monorepo Backend
             -Dsonar.sources=src/backend
