@@ -70,7 +70,7 @@ jobs:
         with:
           args: |
             -Dsonar.projectKey=monorepo-backend
-            -Dsonar.projectName=Monorepo Backend
+            -Dsonar.projectName=Monorepo_Backend
             -Dsonar.sources=src/backend
 
   simulate_deployment:
