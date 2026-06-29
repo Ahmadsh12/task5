@@ -71,7 +71,7 @@ jobs:
           args: |
             -Dsonar.projectKey=github-task5
             -Dsonar.projectName=github-task5
-            -Dsonar.sources=src/backend
+            -Dsonar.sources=src
 
   simulate_deployment:
     name: Simulate Deployment
